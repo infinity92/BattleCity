@@ -5,6 +5,9 @@ project(${PROJECT_NAME})
 
 set(CMAKE_CXX_STANDARD 17)
 
+#поиск файлов (рекурсивный) по шаблону
+#file(GLOB_RECURSE FILES_CPP "src/*.cpp"),
+
 add_executable(${PROJECT_NAME}
         src/main.cpp
         src/Renderer/ShaderProgram.cpp
